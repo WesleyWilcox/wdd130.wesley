@@ -76,3 +76,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.logo {
+  max-width: 80px;
+}
