@@ -1,0 +1,10 @@
+.cherry1 {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.greybox {
+    width: 100px;
+    height: 100px;
+    background-color:grey;
+}
