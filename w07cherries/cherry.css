@@ -6,5 +6,7 @@ display: grid;
 .greybox {
     width: 100px;
     height: 100px;
-    background-color:grey;
+    background-color: grey;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
