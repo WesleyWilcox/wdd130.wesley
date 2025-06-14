@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tagesschrift&display=swap');
+
 #content{
   max-width: 1600px;
   margin: 0 auto;
 }
+
+h1 {
+  font-family: Quicksand, Ariel, sans-serif;
+}
+
 #hero {
   margin: 0;
 }
@@ -32,6 +39,7 @@ body {
 }
 h2 {
     margin: 0;
+    font-family: Quicksand, Ariel, sans-serif;
 }
 header {
   background-color: #450909;
