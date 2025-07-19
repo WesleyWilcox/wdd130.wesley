@@ -1,8 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Tagesschrift&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tagesschrift&display=swap');
-
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #d1a860   ;
@@ -11,39 +11,49 @@ Fonts are separated by a | */
   --accent2-color: rgb(235, 227, 203);
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Tagesschrift"
-  --paragraph-font: Quicksand, Ariel, sans-serif;
+  --heading-font: dm-serif-display;
+  --paragraph-font: Tagesschrift, Ariel;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #000000;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(0, 0, 0); /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(0, 0, 0); /* paragraph text on a colored background */ 
+  --paragraph-background-color: #e6a93c  ;
+  --nav-link-color: #000000;
+  --nav-background-color: #000000;
+  --nav-hover-link-color: rgb(0, 0, 0);
+  --nav-hover-background-color: #000000;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #fef0c9ff;
+  
+
 }
 img {
   display: block;
   margin: 0 auto;
+  border: 5px solid #ac9c6d;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: Quicksand, Ariel, sans-serif;
   color: var(--headline-color-on-white);
 }
+
+h4, h5, h6 {
+  font-family: Tagesschrift, Ariel, Quicksand;
+  color: var(--headline-color-on-white);
+}
+
 h2 {
   text-align: center;
 }
@@ -57,6 +67,8 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  
+  
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -173,3 +185,17 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+footer {
+    padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+
+/* Home Page Style */
+
+.1stlink {
+
+}
+
